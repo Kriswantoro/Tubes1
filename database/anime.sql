@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 02, 2019 at 02:13 AM
+-- Generation Time: Jan 06, 2019 at 06:45 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.10
 
@@ -60,7 +60,10 @@ CREATE TABLE `anime` (
 --
 
 INSERT INTO `anime` (`id_anime`, `foto_anime`, `judul`, `genre`, `tahun`) VALUES
-(5, 'Naruto.png', 'Naruto', '<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: small;\">Adventure fiction, Comedy, Fantasy</span></p>', 2007);
+(9, 'MV5BODkzMjhjYTQtYmQyOS00NmZlLTg3Y2UtYjkzN2JkNmRjY2FhXkEyXkFqcGdeQXVyNTM4MDQ5MDc@._V1_UY268_CR1,0,182,268_AL_.jpg', 'Death Note', '<p>Mystery, supernatural, thriller</p>', 2003),
+(10, 'Naruto_newshot.png', 'Naruto', '<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: small;\">Adventure fiction, Comedy, Fantasy</span></p>', 2007),
+(11, '200px-One_Piece_DVD_18.png', 'One Piece', '<p>Adventure, fantasy</p>', 1997),
+(12, '220px-Tokyo_Ghoul_volume_1_cover.jpg', 'Tokyo Goul', '<p>Dark fantasy,horror, thriller</p>', 2011);
 
 --
 -- Indexes for dumped tables
@@ -92,7 +95,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `anime`
 --
 ALTER TABLE `anime`
-  MODIFY `id_anime` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_anime` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
